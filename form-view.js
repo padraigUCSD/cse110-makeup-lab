@@ -29,7 +29,8 @@ export class FormView{
 
     _onCC1Pressed(){
         // print curr val of name input
-        console.log(document.getElementById('nameInput').value);
+        console.log('print curr val of email input');
+        console.log(document.getElementById('emailInput').value);
     }
 
     _onCC2Pressed(){
@@ -68,11 +69,13 @@ export class FormView{
     }
 
     _onSubmitPressed(){
+        /*
         try
 
         catch 
 
         throw
+        */
     }
     
 }

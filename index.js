@@ -1,4 +1,4 @@
-import { FormView } from 'form-view.js';
+import { FormView } from './form-view.js';
 
 const formView = new FormView();
 formView.bind();
