@@ -40,7 +40,8 @@ export class FormView{
     }
 
     _onCC3Pressed(){
-        console.table();
+        //print some filled out personal details form inputs in tabular fashion
+        console.table([document.getElementById('nameInput').value, document.getElementById('phoneInput').value, document.getElementById('cityInput').value,]);
     }
     
     _onCC4Pressed(){
