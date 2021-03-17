@@ -28,11 +28,14 @@ export class FormView{
     }
 
     _onCC1Pressed(){
-        console.log();
+        // print curr val of name input
+        console.log(document.getElementById('nameInput').value);
     }
 
     _onCC2Pressed(){
-        console.error();
+        if(name.contains == $){
+            console.error("Name cannot contain $ symbol");
+        }
     }
 
     _onCC3Pressed(){
