@@ -1,13 +1,4 @@
-export class FormView{
-    constructor(){
+import { FormView } from 'form-view.js';
 
-    }
-
-    bind(){
-        this._XXX.onclick = e => this._onXXXPressed.call(this, e);
-    }
-
-    _onXXXPressed(){
-        
-    }
-}
+const formView = new FormView();
+formView.bind();
