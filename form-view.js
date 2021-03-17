@@ -9,6 +9,8 @@ export class FormView{
         this._cc7 = document.getElementById('cc7');
         this._cc8 = document.getElementById('cc8');
         this._cc9 = document.getElementById('cc9');
+
+        this._submitButton = document.getElementById('submitButton');
     }
 
     bind(){
@@ -21,42 +23,53 @@ export class FormView{
         this._cc7.onclick = e => this._onCC7Pressed.call(this, e);
         this._cc8.onclick = e => this._onCC8Pressed.call(this, e);
         this._cc9.onclick = e => this._onCC9Pressed.call(this, e);
+
+        this._submitButton.onclick = e => this._onSubmitPressed.call(this, e);
     }
 
     _onCC1Pressed(){
-        
+        console.log();
     }
 
     _onCC2Pressed(){
-        
+        console.error();
     }
 
     _onCC3Pressed(){
-        
+        console.table();
     }
     
     _onCC4Pressed(){
-        
+        console.dir();
     }
     
     _onCC5Pressed(){
-        
+        console.dirxml();
     }
     
     _onCC6Pressed(){
-        
+        console.group();
     }
     
     _onCC7Pressed(){
-        
+        //
+        console.time();
     }
     
     _onCC8Pressed(){
-        
+        console.timeEnd();
     }
     
     _onCC9Pressed(){
-        
+        console.trace();
+    }
+
+    _onSubmitPressed(){
+        try
+
+        catch 
+
+        throw
     }
     
 }
