@@ -12,10 +12,51 @@ export class FormView{
     }
 
     bind(){
-        this._XXX.onclick = e => this._onXXXPressed.call(this, e);
+        this._cc1.onclick = e => this._onCC1Pressed.call(this, e);
+        this._cc2.onclick = e => this._onCC2Pressed.call(this, e);
+        this._cc3.onclick = e => this._onCC3Pressed.call(this, e);
+        this._cc4.onclick = e => this._onCC4Pressed.call(this, e);
+        this._cc5.onclick = e => this._onCC5Pressed.call(this, e);
+        this._cc6.onclick = e => this._onCC6Pressed.call(this, e);
+        this._cc7.onclick = e => this._onCC7Pressed.call(this, e);
+        this._cc8.onclick = e => this._onCC8Pressed.call(this, e);
+        this._cc9.onclick = e => this._onCC9Pressed.call(this, e);
     }
 
-    _onXXXPressed(){
+    _onCC1Pressed(){
         
     }
+
+    _onCC2Pressed(){
+        
+    }
+
+    _onCC3Pressed(){
+        
+    }
+    
+    _onCC4Pressed(){
+        
+    }
+    
+    _onCC5Pressed(){
+        
+    }
+    
+    _onCC6Pressed(){
+        
+    }
+    
+    _onCC7Pressed(){
+        
+    }
+    
+    _onCC8Pressed(){
+        
+    }
+    
+    _onCC9Pressed(){
+        
+    }
+    
 }
