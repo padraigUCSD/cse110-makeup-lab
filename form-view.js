@@ -34,9 +34,9 @@ export class FormView{
     }
 
     _onCC2Pressed(){
-        if(name.contains == $){
-            console.error("Name cannot contain $ symbol");
-        }
+        document.getElementById('emailInput').value == "";
+        console.error("email field cannot be empty);
+
     }
 
     _onCC3Pressed(){
@@ -69,13 +69,21 @@ export class FormView{
     }
 
     _onSubmitPressed(){
-        /*
-        try
+        
+        try{
+            if(document.getElementById('emailInput').value == ""){
+                throw "Empty Email Field";
+            }
+        }
 
-        catch 
+        catch(err){
+            console.error("Please correct the following error to submit the form " + err);
+        } 
 
-        throw
-        */
+        finally{
+            console.trace();
+        }
+
     }
     
 }
