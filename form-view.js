@@ -35,7 +35,7 @@ export class FormView{
 
     _onCC2Pressed(){
         document.getElementById('emailInput').value == "";
-        console.error("email field cannot be empty);
+        console.error("email field cannot be empty");
 
     }
 
